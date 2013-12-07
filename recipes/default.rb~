@@ -10,7 +10,7 @@
 
 #To intall the linux agent of  site24x7 for ubuntu 12.04 
 directory "/tmp/site24x7agent" do
-	mode 0755
+	mode 0777
 	action :create
 end
 
@@ -20,7 +20,7 @@ execute "curl" do
 end
 
 file "/tmp/site24x7agent/Linux_Agent_32bit.install" do 
-	mode 0755
+	mode 0777
 end
 
 execute '' do
