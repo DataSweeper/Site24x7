@@ -32,7 +32,7 @@ bash "site24x7_install" do
   cwd
   user "root"
  code <<-EOH
-  sudo /tmp/site24x7agent/#{package} -i -key=#{node[:Site24x7][:APIkey]}
+  sudo /tmp/site24x7agent/#{package} -i -key=#{node.default[:Site24x7][:APIkey]}
   EOH
  action :run
 end
