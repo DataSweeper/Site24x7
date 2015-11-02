@@ -1,11 +1,11 @@
-Site24x7 CHANGELOG
+site24x7 CHANGELOG
 ==================
 
-This file is used to list changes made in each version of the Site24x7 cookbook.
+This file is used to list changes made in each version of the site24x7 cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of Site24x7
+- [your_name] - Initial release of site24x7
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.

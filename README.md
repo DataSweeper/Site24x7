@@ -1,9 +1,7 @@
-Site24x7 Cookbook
+site24x7 Cookbook
 =================
-TODO: Enter the cookbook description here.
+TODO: Install and configure Linux monitoring agent from Site24x7.
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
 
 Requirements
 ------------
@@ -11,14 +9,14 @@ TODO: List your cookbook requirements. Be sure to include any requirements this 
 
 e.g.
 #### packages
-- `toaster` - Site24x7 needs toaster to brown your bagel.
+- `toaster` - site24x7 needs toaster to brown your bagel.
 
 Attributes
 ----------
 TODO: List you cookbook attributes here.
 
 e.g.
-#### Site24x7::default
+#### site24x7::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +25,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['Site24x7']['bacon']</tt></td>
+    <td><tt>['site24x7']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +34,17 @@ e.g.
 
 Usage
 -----
-#### Site24x7::default
+#### site24x7::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `Site24x7` in your node's `run_list`:
+Just include `site24x7` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[Site24x7]"
+    "recipe[site24x7]"
   ]
 }
 ```
